@@ -172,6 +172,7 @@ class _VerificationCodeState extends State<VerificationCode> {
         ),
       ),
       focusedBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(50),
         borderSide: BorderSide(
           color: widget.underlineColor ?? Theme.of(context).primaryColor,
           width: widget.underlineWidth ?? 1,
